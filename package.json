@@ -36,7 +36,7 @@
     "grunt-contrib-uglify": "^0.10.1",
     "grunt-contrib-watch": "1.0.0",
     "grunt-sass": "^1.1.0",
-    "jquery": "^2.1.4",
+    "jquery": "^3.5.0",
     "kerberos": "0.0.17",
     "lodash": "^3.10.1",
     "mongodb": "^2.0.48",
