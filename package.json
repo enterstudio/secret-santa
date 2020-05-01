@@ -5,7 +5,9 @@
   "main": "Gruntfile.js",
   "scripts": {
     "test": "exit 0;",
-    "start": "grunt build && node index.js"
+    "start": "grunt build && node index.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -36,12 +38,14 @@
     "grunt-contrib-uglify": "^0.10.1",
     "grunt-contrib-watch": "1.0.0",
     "grunt-sass": "^1.1.0",
-    "jquery": "^2.1.4",
+    "jquery": "^3.5.0",
     "kerberos": "0.0.17",
     "lodash": "^3.10.1",
     "mongodb": "^2.0.48",
     "q": "^1.4.1",
     "request-promise": "^1.0.2",
-    "winston": "^2.1.0"
-  }
+    "winston": "^2.1.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
