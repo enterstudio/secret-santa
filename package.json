@@ -35,13 +35,13 @@
     "grunt-contrib-copy": "^0.8.2",
     "grunt-contrib-uglify": "^0.10.1",
     "grunt-contrib-watch": "1.0.0",
-    "grunt-sass": "^1.1.0",
+    "grunt-sass": "^3.0.0",
     "jquery": "^2.1.4",
     "kerberos": "0.0.17",
     "lodash": "^3.10.1",
     "mongodb": "^2.0.48",
     "q": "^1.4.1",
-    "request-promise": "^1.0.2",
+    "request-promise": "^4.2.6",
     "winston": "^2.1.0"
   }
 }
